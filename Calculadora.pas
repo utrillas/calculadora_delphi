@@ -110,7 +110,7 @@ function TFormCalculadora.carpeta(var Path: String;
   var Archivo: TextFile;
   Linea: string;
 begin
-Path := 'C:\grupo_cie';
+Path := '\grupo_cie';
 Fichero := '\Resultado';
 rutaTrabajo := Path+Fichero;
 

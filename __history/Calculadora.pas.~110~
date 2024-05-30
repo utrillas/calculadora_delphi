@@ -104,7 +104,7 @@ num1 := '5';
 num2 :='6';
 result:=0;
 end;
-//función carpeta para crear carpeta
+//función carpeta para crear carpeta y el archivo txt
 function TFormCalculadora.carpeta(var Path: String;
   var Fichero: String; rutaTrabajo : String): String;
   var Archivo: TextFile;
@@ -116,20 +116,21 @@ rutaTrabajo := Path+Fichero;
 
 
   if not DirectoryExists(rutaTrabajo) then
-  CreateDir(rutaTrabajo);
+    CreateDir(rutaTrabajo);
   if not FileExists(rutaTrabajo + '\archivo.txt') then
     begin
       AssignFile(Archivo, rutaTrabajo + '\archivo.txt'); // Asigna un nombre al archivo
-      Rewrite(Archivo); // Crea el archivo o sobrescribe si ya existe      // Escribe en el archivo
-      writeln(Archivo, '¡DATOS!');
-      CloseFile(Archivo); // Cierra el archivo
+      Rewrite(Archivo); // Crea el archivo o sobreescribe si ya existe
+      writeln(Archivo, '¡DATOS!');  // Escribe en el archivo
+      CloseFile(Archivo) // Cierra el archivo
     end
   else
-    begin
-      AssignFile(Archivo, rutaTrabajo + '\archivo.txt'); // Asigna un nombre al archivo
-      Rewrite(Archivo); // Crea el archivo o sobrescribe si ya existe      // Escribe en el archivo
-      CloseFile(Archivo); // Cierra el archivo
-    end;
+  begin
+      AssignFile(Archivo, rutaTrabajo +'\archivo.txt');//Asigno un nombre al archivo
+      Append(Archivo);//agrego datos al archivo
+      CloseFile(Archivo); //cierro el archivo
+  end;
+
 end;
 
 //Oncreate

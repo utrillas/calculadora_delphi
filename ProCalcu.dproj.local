@@ -2,11 +2,11 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2024/04/22 15:06:24.000.504,=C:\Users\carmen.utrillas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/04/22 15:19:23.000.567,C:\grupo_cie\Calculadora.pas=C:\Users\carmen.utrillas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/04/22 15:19:23.000.567,C:\grupo_cie\Calculadora.dfm=C:\Users\carmen.utrillas\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2024/04/22 15:27:53.000.748,C:\grupo_cie\ProCalcu.dproj=C:\Users\carmen.utrillas\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/04/22 15:19:23.000.567,C:\Users\carmen.utrillas\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\grupo_cie\Calculadora.pas</Transaction>
+    <Transaction>2024/04/22 15:19:23.000.567,C:\Users\carmen.utrillas\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\grupo_cie\Calculadora.dfm</Transaction>
+    <Transaction>2024/04/22 15:27:53.000.748,C:\Users\carmen.utrillas\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\grupo_cie\ProCalcu.dproj</Transaction>
     <Transaction>2024/04/23 12:03:24.000.259,=C:\grupo_cie\Unit2.pas</Transaction>
-    <Transaction>2024/04/23 12:05:10.000.448,C:\grupo_cie\MemoForm.pas=C:\grupo_cie\Unit2.pas</Transaction>
-    <Transaction>2024/04/23 12:05:10.000.448,C:\grupo_cie\MemoForm.dfm=C:\grupo_cie\Unit2.dfm</Transaction>
+    <Transaction>2024/04/23 12:05:10.000.448,C:\grupo_cie\Unit2.pas=C:\grupo_cie\MemoForm.pas</Transaction>
+    <Transaction>2024/04/23 12:05:10.000.448,C:\grupo_cie\Unit2.dfm=C:\grupo_cie\MemoForm.dfm</Transaction>
   </Transactions>
 </BorlandProject>
